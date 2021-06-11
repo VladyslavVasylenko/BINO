@@ -1,0 +1,251 @@
+
+.down-icon{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+
+.block-our-blog { 
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.block-our-blog__title { 
+  text-shadow: 0px 1px 0 white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 0.56;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.block-our-blog__subtitle { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #999999;
+  padding-top: 50px;
+}
+
+// Blok gallery
+.block-our-blog__conteiner { 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block-our-blog__first { 
+  position: relative;
+  top: 0;
+}
+
+.block-our-blog__second { 
+  max-width: 480px;
+  max-height: 480px;
+  background-color: #e74e3e;
+  padding: 70px 50px 70px 50px;
+}
+
+.block-our-blog__three { 
+  position: relative;
+  top: 0;
+}
+
+.block-our-blog__four { 
+  max-width: 480px;
+  max-height: 480px;
+  background-color: #e74e3e;
+  padding: 70px 50px 70px 50px;
+}
+
+.block-our-blog__five { 
+  max-width: 480px;
+  max-height: 480px;
+  background-color: #e74e3e;
+  padding: 70px 50px 70px 50px;
+}
+
+.block-our-blog__six {
+  position: relative;
+  top: 0;
+}
+
+.block-our-blog__seven { 
+  width: 480px;
+  height: 480px;
+  background-color: #e74e3e;
+  padding: 70px 50px 70px 50px;
+}
+
+.block-our-blog__eight {
+  position: relative;
+  top: 0;
+}
+
+.img-big {
+  max-width: 480px;
+  max-height: 480px;
+}
+
+.block-our-blog-block__name { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.block-our-blog-block__title { 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.block-our-blog-block__line { 
+  width: 44px;
+  height: 4px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.block-our-blog-block__text { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.block-our-blog-block__btn { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.33;
+  text-align: left;
+  color: white;
+}
+
+.fa-angle-double-right {
+  color: white;
+}
+
+.img-smoll {
+  position:absolute;
+  top: 205px;
+  left: -1px;
+}
+
+.img-smoll-left{
+  position:absolute;
+  top: 205px;
+  left: 453px;
+}
+
+@media screen and (max-width: 1919px){
+  .block-our-blog__conteiner { 
+    align-items: center;
+    align-self: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .block-our-blog__first { 
+    position: static;
+  }
+
+  .img-big {
+    width:300px;
+    margin: auto;
+  }
+  
+  .block-our-blog__second { 
+    width: 300px;
+    height: 300px;
+    background-color: #e74e3e;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .block-our-blog__three { 
+    position: static;
+  }
+  
+  .block-our-blog__four { 
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .block-our-blog__five { 
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .block-our-blog__six { 
+    position: static;
+  }
+  
+  .block-our-blog__seven { 
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .block-our-blog__eight { 
+    position: static;
+  }
+  .block-our-blog-block__name { 
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  
+  .block-our-blog-block__title { 
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  
+  .block-our-blog-block__line { 
+    margin-bottom: 10px;
+  }
+
+  .block-our-blog-block__text { 
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  
+  .block-our-blog-block__btn { 
+    font-size: 14px;
+  }
+
+  .img-smoll {
+    display: none;
+    position:absolute;
+    top: 205px;
+    left: -1px;
+  }
+  
+  .img-smoll-left{
+    display: none;
+    position:absolute;
+    top: 205px;
+    left: 453px;
+  }
+}
