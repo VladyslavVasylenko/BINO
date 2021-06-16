@@ -1,0 +1,22 @@
+<svg id="Curve" xmlns="http://www.w3.org/2000/svg" width="1920" height="651.06" viewBox="0 0 1920 651.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e74c3c;
+        opacity: 0.1;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e74c3c;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <path id="Shape_174_copy" data-name="Shape 174 copy" class="cls-1" d="M1922,3726c-14.5,49.83-351.5,452.61-828,342S0,4237,0,4237v137.5H1920S1936.5,3676.17,1922,3726Z" transform="translate(0 -3723.44)"/>
+  <path class="cls-2" d="M0,4237s617.5-279.61,1094-169,813.5-292.17,828-342" transform="translate(0 -3723.44)"/>
+</svg>

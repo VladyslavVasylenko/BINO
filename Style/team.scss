@@ -1,0 +1,107 @@
+.block-team { 
+  max-width: 1920px;
+  height: 744px;
+  background: url(../image/Background4.jpg) no-repeat center center;
+  margin-top: -30px;
+}
+
+.block-team__conteiner { 
+  max-width: 1920px;
+  height: 744px;
+  background-image: url(../image/Curve.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.block-team__first { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: -410px;
+}
+
+.block-team__img { 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e74c3c;
+}
+
+.block-team__name { 
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #e74c3c;
+  padding-top: 100px;
+}
+
+.block-team__name-first {
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #e74c3c;
+  padding-top: 60px;
+}
+
+.block-team__position { 
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: white;
+}
+
+.block-team__second { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -5px;
+  left: -180px;
+}
+
+.block-team__three { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -5px;
+  left: 15px;
+}
+
+.block-team__four { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  left: 250px;
+}
+
+.block-team__five { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  left: 450px;
+}
