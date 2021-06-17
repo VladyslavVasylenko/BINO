@@ -192,11 +192,169 @@
   color: white;
 }
 
-.block-pricing-price__sell:hover {
+.block-pricing-price__conteiner-first:hover .hover {
+  background-color: #e74c3c;
+}
+
+.block-pricing-price__conteiner-first:hover .hoverl {
   color: #e74c3c;
 }
 
-.block-pricing-price__btn:hover, .block-pricing-price__conteiner-second:hover {
+.block-pricing-price__conteiner-two:hover .hover {
   background-color: #e74c3c;
+}
+
+.block-pricing-price__conteiner-two:hover .hoverl {
+  color: #e74c3c;
+}
+
+.block-pricing-price__conteiner-three:hover .hover {
+  background-color: #e74c3c;
+}
+
+.block-pricing-price__conteiner-three:hover .hoverl {
+  color: #e74c3c;
+}
+
+@media screen and (max-width: 1180px) {
+  .block-pricing {
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  .block-our-blog__subtitle {
+    padding: 50px 50px 0 50px;
+  }
+  .block-pricing-price__conteiner-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 0 10px;
+  }
+  .block-pricing-price__conteiner-first {
+    max-width: 380px;
+    max-height: 609px;
+    margin-bottom: 30%;
+    margin-left: 20px;
+    padding-bottom: 150px;
+    background-color: #f4f5f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .block-pricing-price__conteiner-two {
+    max-width: 380px;
+    max-height: 609px;
+    margin-bottom: 30%;
+    margin-left: 20px;
+    padding-bottom: 150px;
+    background-color: #f4f5f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .block-pricing-price__conteiner-three {
+    max-width: 380px;
+    max-height: 609px;
+    padding-bottom: 150px;
+    background-color: #f4f5f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .block-pricing-price__conteiner-first {
+    width: 100%;
+    max-height: 609px;
+    margin-bottom: 30%;
+    margin-left: 20px;
+    padding-bottom: 150px;
+    background-color: #f4f5f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .block-pricing-price__conteiner-two {
+    width: 100%;
+    max-height: 609px;
+    margin-bottom: 30%;
+    margin-left: 20px;
+    padding-bottom: 150px;
+    background-color: #f4f5f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .block-pricing-price__conteiner-three {
+    width: 100%;
+    max-height: 609px;
+    padding-bottom: 150px;
+    background-color: #f4f5f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 15%;
+  }
 }
 /*# sourceMappingURL=pricing.css.map */
