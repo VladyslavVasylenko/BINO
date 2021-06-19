@@ -149,76 +149,91 @@
 .block-team__first:hover .hover-img {
   transform: scale(2);
   margin-top: 130px;
+  transition: ease 0.5s;
 }
 
 .block-team__first:hover .hover-name {
   display: flex;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__first:hover .hover-position{
   display: flex;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__second:hover .hover-img {
   transform: scale(2);
   margin-top: 130px;
+  transition: ease 0.5s;
 }
 
 .block-team__second:hover .hover-name {
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__second:hover .hover-position{
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__three:hover .hover-img {
   transform: scale(2);
   margin-top: 130px;
+  transition: ease 0.5s;
 }
 
 .block-team__three:hover .hover-name {
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__three:hover .hover-position{
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__four:hover .hover-img {
   transform: scale(2);
   margin-top: 130px;
+  transition: ease 0.5s;
 }
 
 .block-team__four:hover .hover-name {
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__four:hover .hover-position{
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__five:hover .hover-img {
   transform: scale(2);
   margin-top: 130px;
+  transition: ease 0.5s;
 }
 
 .block-team__five:hover .hover-name {
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .block-team__five:hover .hover-position{
   display: block;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 @media screen and (max-width: 1180px) {
@@ -379,7 +394,7 @@
     justify-content: center;
     align-items: center;
     align-self: center;
-    padding-top: 200px;
+    padding-top: 160px;
   }
   
   .block-team__first { 

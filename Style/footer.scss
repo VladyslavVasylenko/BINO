@@ -1,0 +1,121 @@
+.footer { 
+  max-width: 1921px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Arrow up
+.arrow-up { 
+  position: relative;
+}
+
+.fa-chevron-up { 
+  color: rgb(255, 255, 255);
+  background-color: rgb(141, 140, 140);
+  padding: 20px;
+  border-radius: 50px;
+  position: absolute;
+  top: -70px;
+  left: 1300px;
+}
+
+.fa-chevron-up:hover {
+  background-color: #e74c3c;
+  transition: ease 0.5s;
+}
+
+// Social icon
+.footer__list { 
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.footer__item { 
+  padding-right: 25px;
+}
+
+.footer__item:last-child {
+  padding-right: 650px;
+}
+
+.cls-1:hover { 
+  fill: #e74c3c;
+  transition: ease 0.5s;
+}
+
+// Some Text
+.footer__text { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  color: rgba(153, 153, 153, 0.75);
+}
+
+@media screen and (max-width: 1570px) {
+  .fa-chevron-up { 
+    color: rgb(255, 255, 255);
+    background-color: rgb(141, 140, 140);
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: -70px;
+    left: 700px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .footer { 
+    max-width: 1921px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-chevron-up { 
+    color: rgb(255, 255, 255);
+    background-color: rgb(141, 140, 140);
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: -45px;
+    left: 250px;
+  }
+
+  .footer__list { 
+    padding-bottom: 10px;
+  }
+
+  .footer__item { 
+    padding-right: 25px;
+  }
+  
+  .footer__item:last-child {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .fa-chevron-up { 
+    color: rgb(255, 255, 255);
+    background-color: rgb(141, 140, 140);
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: -40px;
+    left: 50px;
+  }
+
+  .footer__item { 
+    padding-right: 20px;
+  }
+}

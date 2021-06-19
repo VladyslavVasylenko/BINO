@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.531" height="23" viewBox="0 0 25.531 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e74c3c;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="405" y="5440" width="25.531" height="23" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="twitter" class="cls-1" d="M430.542,5445.06a7.253,7.253,0,0,1-2.277.65,4.382,4.382,0,0,0,1.71-2.24,6.641,6.641,0,0,1-2.56.91h0a4.219,4.219,0,0,0-2.966-1.4,4.073,4.073,0,0,0-3.923,4.25,4.164,4.164,0,0,0,.1.92h0a11.918,11.918,0,0,1-8.643-4.43,4.338,4.338,0,0,0,1.245,5.6,2.616,2.616,0,0,1-1.792-.47,3.968,3.968,0,0,0,3.166,4.03,3.2,3.2,0,0,1-1.709.13,3.877,3.877,0,0,0,3.669,2.8,7.234,7.234,0,0,1-5.919,1.71,12.248,12.248,0,0,0,6.421,1.83,11.66,11.66,0,0,0,11.772-12.04c0-.01,0-0.02,0-0.03s0-.03,0-0.05,0-.04,0-0.06A6.7,6.7,0,0,0,430.542,5445.06Z" transform="translate(-405 -5440)"/>
+</svg>

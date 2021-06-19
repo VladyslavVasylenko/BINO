@@ -208,6 +208,8 @@
   -webkit-transform: scale(2);
           transform: scale(2);
   margin-top: 130px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__first:hover .hover-name {
@@ -216,6 +218,8 @@
   display: flex;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__first:hover .hover-position {
@@ -224,78 +228,104 @@
   display: flex;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__second:hover .hover-img {
   -webkit-transform: scale(2);
           transform: scale(2);
   margin-top: 130px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__second:hover .hover-name {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__second:hover .hover-position {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__three:hover .hover-img {
   -webkit-transform: scale(2);
           transform: scale(2);
   margin-top: 130px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__three:hover .hover-name {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__three:hover .hover-position {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__four:hover .hover-img {
   -webkit-transform: scale(2);
           transform: scale(2);
   margin-top: 130px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__four:hover .hover-name {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__four:hover .hover-position {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__five:hover .hover-img {
   -webkit-transform: scale(2);
           transform: scale(2);
   margin-top: 130px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__five:hover .hover-name {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .block-team__five:hover .hover-position {
   display: block;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 @media screen and (max-width: 1180px) {
@@ -550,7 +580,7 @@
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-top: 200px;
+    padding-top: 160px;
   }
   .block-team__first {
     width: 320px;

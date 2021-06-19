@@ -69,12 +69,16 @@
 .header__item-link:hover {
   color: #e74c3c;
   border-bottom: 1px solid #e74c3c;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .active {
   color: #e74c3c;
   padding-bottom: 20px;
   border-bottom: 1px solid #e74c3c;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .slick-slider {
@@ -251,6 +255,9 @@
           box-shadow: 0px 2px 4.8px 0.3px black;
   background-color: #e74c3c;
   z-index: 1;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  border: none;
 }
 
 .btn-more:hover {
@@ -258,6 +265,9 @@
           box-shadow: 0px 2px 4.8px 0.3px black;
   background-color: #e74c3c;
   z-index: 1;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  border: none;
 }
 
 @media screen and (max-width: 1200px) {
